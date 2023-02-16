@@ -1,33 +1,32 @@
 <template>
-  <div class="grid grid-cols-2 w-screen h-screen justify-center">
-    <div class="w-64 flex flex-col items-center border-r-2 border-green">
-      <Logo class="fill-green w-40 h-40 my-16"/>
-      <NuxtLink class="text-green w-full py-4 text-center border-y-2 uppercase">A Propos</NuxtLink>
-      <NuxtLink class="text-green w-full py-4 text-center border-b-2 uppercase">Typographie</NuxtLink>
-    </div>
-    <div class="w-2/3 border-2 border-green flex flex-col my-12 ">
-      <div class="w-full flex justify-end">
-        <h4 class="text-white w-min m-2  p-3 py-2 bg-green text-xs rounded-md uppercase ">
-          Lustucrust
-        </h4>
-      </div>
-      <div class="flex flex-row justify-center  w-full h-full">
-        <div class="flex flex-col h-full gap-8 m-16 ">
-          <a class="font-lustucrust text-green text-4xl">a b c d e f g h i j k l m n o p q r s t u v w x y z</a>
-          <a class="font-lustucrust text-green capitalize text-4xl">a b c d e f g h i j k l m n o p q r s t u v w x y z</a>
-          <a class="font-lustucrust text-green text-4xl">0 1 2 3 4 5 6 7 8 9</a>
-
-          <div class="flex justify-center">
-          <a  href="/lustucrust.zip" download="lustucrust.zip"><Download class="h-20 w-20 fill-green"/></a>
-          </div>
+  <div class="w-screen h-screen bg-back p-2 sm:p-12">
+    <div class="md:h-full grid grid-rows-2 border-8 divide-y-8 divide-main border-main">
+      <div class="grid grid-cols-4 divide-x-8 divide-main h-48 md:h-full">
+        <div class="col-span-3 flex flex-col  items-center justify-center ">
+          <h1 class="font-basteleur text-main text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl sm:w-2/3 pb-2 sm:pb-8">Travaillons</h1>
+          <h1 class="font-cantique text-main text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl sm:w-2/3 text-right">Ensemble</h1>
         </div>
-        <div class="h-full relative relative w-12">
-          <div class="absolute inset-y-0 left-0 -translate-x-1/2 translate-y-1/2">
-            <p class=" w-max font-lustucrust text-2xl text-green rotate-90 origin-center">La douleur peut etre positive</p>
+        <div class="flex flex-col items-center justify-center">
+          <div class="relative h-3/4 w-2/3">
+            <Prism class="absolute stroke-main" />
+            <Door class="inset-0 fill-accent" />
           </div>
         </div>
       </div>
+      <div class="grid grid-cols-4 divide-x-8 divide-main h-48 md:h-full">
+        <div class="flex flex-col items-center justify-center">
+          <div class="relative h-3/4 w-3/4">
+            <Doggo class="absolute stroke-main" />
+            <Triangle class="inset-0 fill-accent" />
+          </div>
+        </div>
+        <div class="col-span-3 flex flex-col justify-center items-center gap-4 p-4">
+          <p class="text-lg sm:text-xl md:text-2xl"> Vous avez des projets de sites web ou d’applications ?</p>
+          <p class="text-lg sm:text-xl md:text-2xl">Vous voulez expérimenter, créer ou tester vos idées ?</p>
+        </div>
+      </div>
     </div>
+    
   </div>
 </template>
 <script>
@@ -41,7 +40,7 @@ export default {
       }]
     }) },
     head: {
-      title: 'Grenoble Typo Club'
+      title: 'Mickaël se lance'
     }
   }
 </script>

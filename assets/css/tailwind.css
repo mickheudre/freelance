@@ -3,7 +3,12 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: "lustucrust";
-    src: url("../fonts/lustucrust.otf") format("opentype");
+    font-family: "Basteleur";
+    src: url("../fonts/Basteleur-Moonlight.woff2") format("woff2");
   }
-  
+
+  @font-face {
+    font-family: "Cantique";
+    src: url("../fonts/Cantique-Normal.woff2") format("woff2");
+  }
+   

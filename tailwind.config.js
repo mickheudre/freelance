@@ -10,12 +10,16 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      lustucrust : ['lustucrust'],
+      basteleur : ['Basteleur'],
+      cantique: ['Cantique'],
       sans: ['Arial']
    },
    colors: {
     green: '#39B615',
-    white: "#FFFFFF"
+    white: "#FFFFFF",
+    back: '#FFFFFF',
+    main: '#000000',
+    accent: "#FF3737"
    }
   },
   plugins: [],
