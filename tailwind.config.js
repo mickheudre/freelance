@@ -13,7 +13,7 @@ module.exports = {
       basteleur : ['Basteleur'],
       cantique: ['Cantique'],
       sans: ['Arial'],
-      serif: ['Frank Ruhl Libre']
+      serif: ['Frank Ruhl Libre', 'serif']
    },
    colors: {
     green: '#39B615',
