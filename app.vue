@@ -12,17 +12,17 @@
         </div>
       </div>
       <div class="col-span-3 lg:col-span-1 border-2 lg:border-4  p-4 lg:hidden flex flex-col items-center justify-center py-8 sm:py-16">
-        <p class="text-lg sm:text-xl md:text-2xl "> Vous avez des projets de sites web ou d’applications ?</p>
+        <p class="text-lg sm:text-xl md:text-2xl "> <span class="relative">Vous <Highlight class="absolute -left-4 -bottom-7 w-24 h-16 fill-accent "/></span> avez des projets de sites web ou d’applications ?</p>
       </div>
       <div class="col-span-2 lg:col-span-1 border-2 lg:border-4  order-last lg:order-none flex flex-col items-center justify-center">
-        <div class="relative h-3/4 w-3/4 ">
+        <div class="relative  w-3/4 ">
           <Doggo class="absolute stroke-main" />
           <Triangle class="inset-0 fill-accent" />
         </div>
       </div>
       <div class="col-span-3 border-2 lg:border-4  gap-4 p-4 flex flex-col items-center justify-center py-8 sm:py-16">
-        <p class="text-lg sm:text-xl md:text-2xl hidden lg:block"> Vous avez des projets de sites web ou d’applications ?</p>
-        <p class="text-lg sm:text-xl md:text-2xl">Vous voulez expérimenter, créer ou tester vos idées ?</p>
+        <p class="text-lg sm:text-xl md:text-2xl hidden lg:block"> <span class="relative">Vous <Highlight class="absolute -left-4 -bottom-7 w-24 h-16 fill-accent "/></span> avez des projets de sites web ou d’applications ?</p>
+        <p class="text-lg sm:text-xl md:text-2xl"><span class="relative">Vous <Highlight class="absolute -left-4 -bottom-7 w-24 h-16 fill-accent "/></span> voulez expérimenter, créer ou tester vos idées ?</p>
       </div>
     </div>
     
