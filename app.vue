@@ -7,7 +7,9 @@
       </div>
       <div class="col-span-2 lg:col-span-1 border-2 lg:border-4  flex flex-col items-center justify-center">
         <div class="relative h-3/4 w-3/4">
-          <Prism class="absolute stroke-main" />
+          <Prism class="absolute stroke-back" />
+          <Prism class="absolute stroke-main pl-px" />
+
           <Door class="fill-accent" />
         </div>
       </div>
@@ -16,7 +18,9 @@
       </div>
       <div class="col-span-2 lg:col-span-1 border-2 lg:border-4  order-last lg:order-none flex flex-col items-center justify-center">
         <div class="relative  w-3/4 ">
-          <Doggo class="absolute stroke-main" />
+          <Doggo class="absolute stroke-back" />
+          <Doggo class="absolute stroke-main pl-px" />
+
           <Triangle class="inset-0 fill-accent" />
         </div>
       </div>
