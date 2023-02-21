@@ -12,7 +12,8 @@ module.exports = {
     fontFamily: {
       basteleur : ['Basteleur'],
       cantique: ['Cantique'],
-      sans: ['Arial']
+      sans: ['Arial'],
+      serif: ['Frank Ruhl Libre']
    },
    colors: {
     green: '#39B615',

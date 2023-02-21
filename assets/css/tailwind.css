@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&display=swap');
+
 @font-face {
     font-family: "Basteleur";
     src: url("../fonts/Basteleur-Moonlight.woff2") format("woff2");
