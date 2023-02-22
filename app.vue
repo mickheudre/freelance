@@ -32,7 +32,7 @@
     <div class="flex flex-col items-center py-16">
       <div class="relative w-full sm:px-4 lg:w-2/3">
         <Flag class="w-full" />
-        <h2 class="absolute inset-0 translate-y-1/3 font-serif text-xs sm:text-lg lg:text-2xl text-white px-6 text-center sm:text-left md:px-16 lg:px-24  -py-12 sm:py-1 lg:py-3">Je vous propose mes service de conception et développement de sites web et d’applications</h2>
+        <h2 class="absolute inset-0 h-72  translate-y-8 sm:translate-y-16 lg:translate-y-1/3 font-serif text-sm sm:text-lg lg:text-2xl text-white px-6 text-center sm:text-left md:px-16 lg:px-24">Je vous propose mes service de conception et développement de sites web et d’applications</h2>
       </div>
       
     </div>
