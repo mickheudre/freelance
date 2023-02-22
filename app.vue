@@ -9,7 +9,7 @@
         <div class="relative h-3/4 w-3/4">
           <Prism class="absolute stroke-back" />
           <Prism class="absolute stroke-main pl-px" />
-
+          
           <Door class="fill-accent" />
         </div>
       </div>
@@ -20,7 +20,7 @@
         <div class="relative  w-3/4 ">
           <Doggo class="absolute stroke-back" />
           <Doggo class="absolute stroke-main pl-px" />
-
+          
           <Triangle class="inset-0 fill-accent" />
         </div>
       </div>
@@ -28,6 +28,13 @@
         <p class="text-lg sm:text-xl md:text-2xl hidden lg:block font-serif"> <span class="relative">Vous <Highlight2 class="absolute inset-0 stroke-accent fill-accent "/></span> avez des projets de sites web ou d’applications ?</p>
         <p class="text-lg sm:text-xl md:text-2xl font-serif"><span class="relative">Vous <Highlight class="absolute -right-0 -top-7  h-16 fill-accent -scale-x-100"/></span> voulez expérimenter, créer ou tester vos idées ?</p>
       </div>
+    </div>
+    <div class="flex flex-col items-center py-16">
+      <div class="relative w-full sm:px-4 lg:w-2/3">
+        <Flag class="w-full" />
+        <h2 class="absolute inset-0 translate-y-1/3 font-serif text-xs sm:text-lg lg:text-2xl text-white px-6 text-center sm:text-left md:px-16 lg:px-24  -py-12 sm:py-1 lg:py-3">Je vous propose mes service de conception et développement de sites web et d’applications</h2>
+      </div>
+      
     </div>
     
   </div>
