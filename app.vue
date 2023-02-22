@@ -29,10 +29,10 @@
         <p class="text-lg sm:text-xl md:text-2xl font-serif"><span class="relative">Vous <Highlight class="absolute -right-0 -top-7  h-16 fill-accent -scale-x-100"/></span> voulez expérimenter, créer ou tester vos idées ?</p>
       </div>
     </div>
-    <div class="flex flex-col items-center py-16">
+    <div class="flex flex-col items-center py-16 w-full">
       <div class="relative w-full sm:px-4 lg:w-2/3">
-        <Flag class="w-full" />
-        <h2 class="absolute inset-0 h-72  translate-y-8 sm:translate-y-16 lg:translate-y-1/3 font-serif text-sm sm:text-lg lg:text-2xl text-white px-6 text-center sm:text-left md:px-16 lg:px-24">Je vous propose mes service de conception et développement de sites web et d’applications</h2>
+        <Flag class="scale-y-150 sm:scale-y-100" />
+        <h2 class="absolute inset-0 font-serif translate-y-7 sm:translate-y-16 lg:translate-y-24 text-sm sm:text-lg lg:text-2xl text-white px-6 text-center sm:text-left md:px-16 lg:px-24">Je vous propose mes service de design et développement de sites web et d’applications</h2>
       </div>
       
     </div>
