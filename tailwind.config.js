@@ -9,19 +9,23 @@ module.exports = {
     "app.vue"
   ],
   theme: {
-    fontFamily: {
-      basteleur : ['Basteleur'],
-      cantique: ['Cantique'],
-      sans: ['Arial'],
-      serif: ['Frank Ruhl Libre', 'serif']
-   },
-   colors: {
-    green: '#39B615',
-    white: "#FFFFFF",
-    back: '#FFFFFF',
-    main: '#000000',
-    accent: "#FF3737"
-   }
+    extend: {
+      fontFamily: {
+        basteleur : ['Basteleur'],
+        cantique: ['Cantique'],
+        sans: ['Arial'],
+        serif: ['Frank Ruhl Libre', 'serif']
+      },
+      colors: {
+        back: '#e7ecef',
+        main: '#08415c',
+        accent: "#f05d5e",
+      },
+      borderWidth: {
+        '3': '3px',
+      }
+    }
+    
   },
   plugins: [],
 };

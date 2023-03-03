@@ -9,5 +9,8 @@ export default defineNuxtConfig({
   css: [
     '@/assets/css/tailwind.css',
   ],
+  routeRules: {
+    '/': { static: true },
+  }
 });
 
