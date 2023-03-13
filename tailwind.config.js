@@ -13,12 +13,12 @@ module.exports = {
       fontFamily: {
         basteleur : ['Basteleur'],
         cantique: ['Cantique'],
-        sans: ['Arial'],
+        sans: ['Inter'],
         serif: ['Frank Ruhl Libre', 'serif']
       },
       colors: {
-        back: '#e7ecef',
-        main: '#08415c',
+        back: '#D9D9D9',
+        main: '#1E1E1E',
         accent: "#f05d5e",
       },
       borderWidth: {

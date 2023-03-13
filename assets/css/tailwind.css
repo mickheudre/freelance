@@ -1,17 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
-@font-face {
-    font-family: "Basteleur";
-    src: url("../fonts/Basteleur-Moonlight.woff2") format("woff2");
-  }
-
-  @font-face {
-    font-family: "Cantique";
-    src: url("../fonts/Cantique-Normal.woff2") format("woff2");
-  }
-   
