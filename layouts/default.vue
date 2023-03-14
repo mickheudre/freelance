@@ -2,7 +2,7 @@
     <div class="min-h-screen w-screen bg-back flex flex-col overflow-hidden">
         <div class="flex items-center  sticky top-4 px-4 sm:px-8">
             <div class="flex gap-8 lg:gap-24 items-center">
-                <Logo class="h-12 w-12 flex-none sm:w-16 sm:h-16"/>
+                <NuxtLink to="/"><Logo class="h-12 w-12 flex-none sm:w-16 sm:h-16"/></NuxtLink>
                 <a class="hidden  sm:flex flex-none font-sans uppercase font-semibold">Qui suis-je ?</a>
                 <a class="hidden sm:flex flex-none font-sans uppercase font-semibold">Mes services</a>
                 <a class="hidden sm:flex flex-none font-sans uppercase font-semibold">Me contacter</a>
@@ -16,9 +16,6 @@
                     </div>
             </div>                
             <slot />
-            <div class="border-t-4 border-main my-12 mx-8">
-                
-            </div>
         </div>
     </template>
     
