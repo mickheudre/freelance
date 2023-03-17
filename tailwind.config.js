@@ -14,7 +14,7 @@ module.exports = {
         basteleur : ['Basteleur'],
         cantique: ['Cantique'],
         sans: ['Inter'],
-        serif: ['Payfair Display', 'serif']
+        serif: ['PP Cirka', 'serif']
       },
       colors: {
         back: '#D9D9D9',
