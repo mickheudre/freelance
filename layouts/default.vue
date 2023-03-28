@@ -7,7 +7,7 @@
                 <a class="hidden sm:flex flex-none font-sans uppercase font-semibold" href="/">Mes services</a>
                 <a class="hidden sm:flex flex-none font-sans uppercase font-semibold">Me contacter</a>
             </div>
-            <div class="marquee  bg-main text-back flex transform rotate-45 translate-x-1/3 xl:translate-x-1/2 px-8 py-2">
+            <div class="marquee  bg-main text-back flex transform rotate-45 translate-x-1/3 2xl:translate-x-1/2 px-8 py-2">
                 <div class="marquee__inner" aria-hidden="true">
                     <p  class=" w-max" v-for="item in 12">
                         Open to Work <span class="px-2">-</span>

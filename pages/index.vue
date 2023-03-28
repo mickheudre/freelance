@@ -20,9 +20,9 @@
         </div>
         <div class="sm:w-4/5 lg:w-2/3">
           <h4 class="font-semibold text-xl lg:text-2xl my-2 sm:text-right">
-            Construisons ensemble l’application qu’il vous faut, <span class="text-lg font-normal">de l’émergence de l’idée à la mise en production, conçue pour répondre à vos besoins et ceux des utilisateurs</span>
+            Construisons ensemble l’application qu’il vous faut
           </h4>
-          
+          <p class="text-lg font-normal sm:text-right">De l’émergence de l’idée à la mise en production, conçue pour répondre à vos besoins et ceux des utilisateurs</p>
           
         </div>
         <button class="font-bold px-12 lg:px-16 py-5 bg-main text-back rounded-md font-sans uppercase my-8"><a href="#booking">Parlons de vos projets</a></button>
@@ -31,7 +31,7 @@
     </div>
     
      <div class="flex flex-col sm:flex-row my-16  items-center justify-between">
-      <div class="flex flex-col  gap-16 sm:w-1/2">
+      <div class="flex flex-col  gap-16 sm:w-2/3 lg:w-1/2">
         <h2 class=" font-semibold text-4xl lg:text-7xl font-serif">Une offre sur mesure</h2>
         
         <div class="flex gap-8 w-full">
@@ -65,13 +65,22 @@
           </div>
         </div>
       </div> 
-      <img class="w-48 md:w-96" src="../assets/images/offer.jpg"/> 
+      <img class="w-3/4 sm:w-48 lg:w-96 my-16 sm:my-0" src="../assets/images/offer.jpg"/> 
     </div>
-    <div id="booking" class="my-16">
-      <h3 class="font-serif text-4xl font-semibold">Je vous propose de prendre 30 minutes afin d'échanger sur vos projets et vos besoins </h3>
-      <Calendar class="py-16"/>
-      
+    <div class="my-32 w-full">
+      <h5 class="font-serif font-semibold text-2xl">Ils m'ont fait confiance</h5>
+      <div class="flex  items-center gap-x-16 gap-y-8 sm:gap-16 my-4 justify-center flex-wrap" >
+          <img class="h-8 sm:h-12" src="~/assets/images/inria-logo.png"/>
+          <img class="h-8 sm:h-12" src="~/assets/images/gopro-logo.png"/>
+          <img class="h-12 m:h-16" src="~/assets/images/iskn-logo.png"/>
+          <img class="h-8 m:h-12" src="~/assets/images/ami-logo.png"/>
+      </div>
     </div>
+    <div id="booking" class="my-8">
+      <h3 class="font-serif text-2xl font-semibold">Je vous propose de prendre 30 minutes afin d'échanger sur vos projets et vos besoins </h3>
+      <Calendar class="py-8"/>
+    </div>
+
     
   </div>
   
