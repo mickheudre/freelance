@@ -2,8 +2,8 @@
   <div class="flex flex-col justify-center items-center pt-16">
     <img src="~/assets/images/header.jpg" class="h-64"/>
     
-    <NotionPage :page="data"  class="text-main my-8 w-1/2"/>
-    <div id="booking" class="my-16 w-1/2">
+    <NotionPage :page="data"  class="text-main my-8 mx-4 sm:mx-16 lg:w-1/2"/>
+    <div id="booking" class="my-16 mx-4 sm:mx-16 lg:w-1/2">
       <h3 class="font-serif text-2xl font-semibold">Je vous propose de prendre 30 minutes afin d'échanger sur vos projets et vos besoins </h3>
       <Calendar class="py-8"/>
     </div>
