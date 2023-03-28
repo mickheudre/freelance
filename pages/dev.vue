@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col justify-center items-center">
+    <div class="flex flex-col justify-center items-center pt-16">
       <img src="~/assets/images/header.jpg" class="h-64"/>
       
       <NotionPage :page="data"  class="text-main my-8 w-1/2"/>
