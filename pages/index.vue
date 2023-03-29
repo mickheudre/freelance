@@ -40,7 +40,7 @@
           </div>
           <div class="w-full">
             <h4 class="text-2xl font-semibold mb-4">Vous voulez tester une idée</h4>
-            <p>Vous voulez tester une idée et cherchez quelqu’un pour développer rapidement une application afin de recueillir des retours utilisateurs.</p>
+            <p>Vous avez une idée et cherchez quelqu’un pour développer rapidement une application afin de recueillir des retours utilisateurs.</p>
             <p>Faisons de vos contraintes de temps et de budget une force pour se concentrer sur l'essentiel. </p>
           </div>
         </div>
@@ -61,7 +61,7 @@
           <div class="w-full">
             <h4 class="text-2xl font-semibold mb-4">Vous avez des besoins ponctuels et souhaitez renforcer votre équipe</h4>
             <p>Vous chercher quelqu’un pour renforcer votre équipe pendant les périodes de rush, ou pour ajouter des fonctionnalités à votre application.</p>
-            <p>J'interviens sur Grenoble ou Paris, ou en distenciel, de quelques jours à quelques semaines.</p>
+            <p>J'interviens sur Grenoble ou Paris, ou en distanciel, de quelques jours à quelques semaines.</p>
           </div>
         </div>
       </div> 
